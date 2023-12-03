@@ -76,7 +76,7 @@ const SearchBooks = () => {
 
     try {
       const { data } = await saveBookMutation({
-        variables: { bookInput: bookToSave },
+        variables: { bookInput: { ...bookToSave } },
       });
 
       // if book successfully saves to user's account, save book id to state
