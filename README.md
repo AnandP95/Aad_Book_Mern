@@ -36,12 +36,14 @@ This is a   MERN  web  application. This application is built using the MERN sta
  *  create a .env file in the server directory and add the necessary environment variable. 
  *  Run the application using this command: " npm run develop".
  *  Open your browser and  navigate to "http://localhost:3000" 
- *  
-   * Link of the demo video : [https://drive.google.com/file/d/111pES4y8oaUZ2ObMThYMD7kFsimPFIo2/view]
+ *  Sign up for a new account .
+  
+ 
+   
 
  ## Contributing
   
-  contributors are welcome.
+  contributors are welcome. 
 
 
 ## License
@@ -52,7 +54,7 @@ This is a   MERN  web  application. This application is built using the MERN sta
 
   ## Tests
   
-  npm test
+  npm run develop
 
   ## Questions
   
