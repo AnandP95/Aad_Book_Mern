@@ -1,6 +1,11 @@
+
 const { AuthenticationError } = require('apollo-server-express');
 const { User } = require('../models');
 const { signToken } = require('../utils/auth');
+
+
+
+
 
 const resolvers = {
   Query: {
@@ -13,6 +18,8 @@ const resolvers = {
           throw new AuthenticationError('please, You need to be logged in here!');
       },
   },
+
+
 
 
   Mutation: {
